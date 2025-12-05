@@ -29,7 +29,7 @@ void loop()
 void forward()
 {
    
-  digitalWrite(leftf1,LOW);   // turn the LED on (HIGH is the voltage level)
+  digitalWrite(leftf1, LOW);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(leftf2, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(rightf1, HIGH);   // turn the LED on (HIGH is the voltage level)
   digitalWrite(rightf2, LOW);   // turn the LED on (HIGH is the voltage level)    // wait for a second
@@ -44,3 +44,4 @@ void forward()
   digitalWrite(rightf2, HIGH);   // turn the LED on (HIGH is the voltage level)
 
     }
+
